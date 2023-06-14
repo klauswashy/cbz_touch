@@ -87,7 +87,7 @@ flutter:
 
     - family: Inter
       fonts:
-        - asset: assets/fonts/static/Inter-Black.ttf
+        - asset: assets/fonts/static/Inter-Regular.ttf
         - asset: assets/fonts/static/Inter-Bold.ttf
   #         weight: 700
     

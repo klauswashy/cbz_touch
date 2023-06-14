@@ -34,12 +34,14 @@ class _DashBoardState extends State<DashBoard> {
               icon: Icon(
                 CustomIcons.cbz_home,
                 color: Colors.white,
+                size: 30,
               ),
               label: 'Home'),
           BottomNavigationBarItem(
             icon: Icon(
               CustomIcons.cbz_botton_nav_buy,
               color: Colors.white,
+              size: 30,
             ),
             label: 'Pay',
           ),
@@ -47,7 +49,7 @@ class _DashBoardState extends State<DashBoard> {
             icon: Icon(
               CustomIcons.cbz_transact,
               color: Colors.white,
-              size: 50,
+              size: 40,
             ),
             label: 'Transact',
           ),
@@ -55,6 +57,7 @@ class _DashBoardState extends State<DashBoard> {
             icon: Icon(
               CustomIcons.cbz_buy,
               color: Colors.white,
+              size: 30,
             ),
             label: 'Buy',
           ),
@@ -62,6 +65,7 @@ class _DashBoardState extends State<DashBoard> {
             icon: Icon(
               CustomIcons.cbz_botton__settings,
               color: Colors.white,
+              size: 30,
             ),
             label: 'Settings',
           ),
@@ -249,7 +253,7 @@ class _DashBoardState extends State<DashBoard> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(16.0),
                       color: Colors.white, // Example background color
                     ),
                     child: const ListTile(
@@ -279,7 +283,7 @@ class _DashBoardState extends State<DashBoard> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(16.0),
                       color: Colors.white, // Example background color
                     ),
                     child: const ListTile(
@@ -309,7 +313,7 @@ class _DashBoardState extends State<DashBoard> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(16.0),
                       color: Colors.white, // Example background color
                     ),
                     child: const ListTile(

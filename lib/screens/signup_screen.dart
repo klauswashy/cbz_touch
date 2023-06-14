@@ -52,7 +52,7 @@ class _SignUpState extends State<SignUp> {
           ),
           const Text(
             "Login",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 28),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),
           ),
           SizedBox(
             height: MediaQuery.of(context).size.height * 0.025,
@@ -171,10 +171,10 @@ class _SignUpState extends State<SignUp> {
               vertical: 5.0,
             ),
             child: SizedBox(
-              height: 45,
+              height: 70,
               child: DecoratedBox(
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10.0),
+                    borderRadius: BorderRadius.circular(16.0),
                     gradient: const LinearGradient(
                         colors: [Color(0xff840B28), Color(0xffE21C32)])),
                 child: ElevatedButton(
@@ -182,7 +182,7 @@ class _SignUpState extends State<SignUp> {
                         backgroundColor: Colors.transparent,
                         padding: EdgeInsets.zero,
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10))),
+                            borderRadius: BorderRadius.circular(16))),
                     onPressed: () async {
                       if (selectedOption == "Pin") {
                         Navigator.push(

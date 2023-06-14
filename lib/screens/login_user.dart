@@ -57,7 +57,7 @@ class _LogUserState extends State<LogUser> {
                           shape:
                               MaterialStateProperty.all<RoundedRectangleBorder>(
                                   RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10.0),
+                            borderRadius: BorderRadius.circular(16.0),
                           ))),
                       onPressed: () async {
                         Navigator.pushReplacement(

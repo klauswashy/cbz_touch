@@ -57,7 +57,7 @@ class _PinLoginState extends State<PinLogin> {
               ),
               const Text(
                 "Enter Pin to Login",
-                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.normal),
               ),
               SizedBox(
                 height: MediaQuery.of(context).size.height * 0.145,

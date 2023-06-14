@@ -57,7 +57,7 @@ class _LogSignState extends State<LogSign> {
                           shape:
                               MaterialStateProperty.all<RoundedRectangleBorder>(
                                   RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10.0),
+                            borderRadius: BorderRadius.circular(16.0),
                           ))),
                       onPressed: () async {
                         Navigator.push(
@@ -74,7 +74,7 @@ class _LogSignState extends State<LogSign> {
                         style: TextStyle(
                           color: Colors.grey,
                           fontFamily: "Poppins",
-                          fontSize: 13,
+                          fontSize: 18,
                         ),
                       ))),
                 ),
@@ -91,7 +91,7 @@ class _LogSignState extends State<LogSign> {
                   height: 70,
                   child: DecoratedBox(
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10.0),
+                        borderRadius: BorderRadius.circular(16.0),
                         gradient: const LinearGradient(
                             colors: [Color(0xff840B28), Color(0xffE21C32)])),
                     child: ElevatedButton(
@@ -99,7 +99,7 @@ class _LogSignState extends State<LogSign> {
                             backgroundColor: Colors.transparent,
                             padding: EdgeInsets.zero,
                             shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10))),
+                                borderRadius: BorderRadius.circular(16))),
                         onPressed: () async {
                           Navigator.push(
                             context,
@@ -115,7 +115,7 @@ class _LogSignState extends State<LogSign> {
                           style: TextStyle(
                             color: Colors.white,
                             fontFamily: "Poppins",
-                            fontSize: 13,
+                            fontSize: 18,
                           ),
                         ))),
                   ),
