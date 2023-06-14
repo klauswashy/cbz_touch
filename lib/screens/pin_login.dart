@@ -72,7 +72,7 @@ class _PinLoginState extends State<PinLogin> {
                       height: 60,
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(10),
+                        borderRadius: BorderRadius.circular(16),
                         border: Border.all(color: Colors.white),
                       ),
                       textStyle: const TextStyle(

@@ -75,22 +75,22 @@ class _DashBoardState extends State<DashBoard> {
               height: MediaQuery.of(context).size.height * 0.025,
             ),
             Container(
-              margin: const EdgeInsets.all(10),
+              margin: const EdgeInsets.all(15),
               decoration: BoxDecoration(
                 image: const DecorationImage(
                   image: AssetImage('assets/card.png'),
                   fit: BoxFit.cover,
                 ),
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(26),
               ),
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height * 0.35,
+              height: MediaQuery.of(context).size.height * 0.30,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    margin: const EdgeInsets.all(8),
+                    margin: const EdgeInsets.only(left: 8, top: 8),
                     child: const Row(
                       children: [
                         Image(
@@ -140,7 +140,7 @@ class _DashBoardState extends State<DashBoard> {
                               size: 18,
                             )),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 20,
                       )
                     ],
@@ -166,8 +166,11 @@ class _DashBoardState extends State<DashBoard> {
                           backgroundColor: Colors.white,
                           child: Icon(
                             CustomIcons.cbz_transfer,
-                            color: Colors.black,
+                            color: Colors.red,
                           )),
+                    ),
+                    const SizedBox(
+                      height: 10,
                     ),
                     const Text("Transact")
                   ],
@@ -181,8 +184,11 @@ class _DashBoardState extends State<DashBoard> {
                           backgroundColor: Colors.white,
                           child: Icon(
                             CustomIcons.cbz_buy,
-                            color: Colors.black,
+                            color: Colors.red,
                           )),
+                    ),
+                    const SizedBox(
+                      height: 10,
                     ),
                     const Text("Buy")
                   ],
@@ -196,8 +202,11 @@ class _DashBoardState extends State<DashBoard> {
                           backgroundColor: Colors.white,
                           child: Icon(
                             CustomIcons.cbz_pay,
-                            color: Colors.black,
+                            color: Colors.red,
                           )),
+                    ),
+                    const SizedBox(
+                      height: 10,
                     ),
                     const Text("Pay")
                   ],
@@ -208,7 +217,7 @@ class _DashBoardState extends State<DashBoard> {
               height: MediaQuery.of(context).size.height * 0.015,
             ),
             Container(
-                margin: const EdgeInsets.only(left: 10, right: 10),
+                margin: const EdgeInsets.only(left: 15, right: 15),
                 child: Divider(
                   color: Colors.black.withOpacity(0.5),
                   height: 0.5,
@@ -218,7 +227,7 @@ class _DashBoardState extends State<DashBoard> {
               height: MediaQuery.of(context).size.height * 0.015,
             ),
             Container(
-                margin: const EdgeInsets.only(left: 10, right: 10),
+                margin: const EdgeInsets.only(left: 15, right: 15),
                 // ignore: prefer_const_constructors
                 child: Row(
                   children: const [
@@ -233,7 +242,7 @@ class _DashBoardState extends State<DashBoard> {
               height: MediaQuery.of(context).size.height * 0.015,
             ),
             Container(
-              margin: const EdgeInsets.only(left: 10, right: 10),
+              margin: const EdgeInsets.only(left: 15, right: 15),
               height: MediaQuery.of(context).size.height * 0.35,
               width: double.infinity,
               child: ListView(

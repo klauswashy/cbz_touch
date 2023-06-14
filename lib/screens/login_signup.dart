@@ -49,7 +49,7 @@ class _LogSignState extends State<LogSign> {
                   vertical: 5.0,
                 ),
                 child: SizedBox(
-                  height: 45,
+                  height: 70,
                   child: ElevatedButton(
                       style: ButtonStyle(
                           backgroundColor:
@@ -88,7 +88,7 @@ class _LogSignState extends State<LogSign> {
                   vertical: 5.0,
                 ),
                 child: SizedBox(
-                  height: 45,
+                  height: 70,
                   child: DecoratedBox(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
